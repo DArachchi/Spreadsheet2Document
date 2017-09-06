@@ -1,0 +1,23 @@
+{
+  "name": "spreadsheet2document",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DArachchi/Spreadsheet2Document.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DArachchi/Spreadsheet2Document/issues"
+  },
+  "homepage": "https://github.com/DArachchi/Spreadsheet2Document#readme"
+}
