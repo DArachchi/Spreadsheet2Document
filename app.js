@@ -8,7 +8,14 @@ var connection = mysql.createConnection({
 	database: "spreadsheet_db"
 });
 
+
+function printParagraph() {
+    console.log("Here is the text.");
+}
+
+
 connection.connect(function(err) {
 	if (err) throw err;
-	console.log("connected as id " + connection.threadId + "\r\n");
+    console.log("connected as id " + connection.threadId + "\r\n\r\n");
+    printParagraph();
 });
